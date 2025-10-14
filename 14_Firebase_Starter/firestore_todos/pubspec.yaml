@@ -1,0 +1,13 @@
+name: firestore_todos
+description: Firestore basic CRUD (todos)
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: any
+  cloud_firestore: any
+
+flutter:
+  uses-material-design: true

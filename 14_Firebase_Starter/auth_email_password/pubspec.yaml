@@ -1,0 +1,13 @@
+name: auth_email_password
+description: Firebase Auth Email/Password demo
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: any
+  firebase_auth: any
+
+flutter:
+  uses-material-design: true

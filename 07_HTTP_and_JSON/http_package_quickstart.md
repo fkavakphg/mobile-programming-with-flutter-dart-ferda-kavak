@@ -1,0 +1,22 @@
+# Quickstart with `http`
+
+**pubspec.yaml:**
+```yaml
+name: http_list_posts
+description: Fetch and show posts
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
+```
+Run:
+```
+flutter pub get
+flutter run
+```

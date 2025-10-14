@@ -1,0 +1,4 @@
+{
+  "helloWorld": "Hello, world!",
+  "greetingWithName": "Hello, {name}!"
+}

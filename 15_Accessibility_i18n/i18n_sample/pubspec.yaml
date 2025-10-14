@@ -1,0 +1,17 @@
+name: i18n_sample
+description: Simple Flutter localization (en, es)
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - lib/l10n/
